@@ -1,0 +1,448 @@
+/* Made by James Mete 2017 */
+/* www.jamesmete.com */
+
+
+/*Remove Underlines*/
+a {
+    text-decoration: none;
+    cursor:pointer;
+}
+
+/* Nav Styling */
+.navCont{
+
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+    .navCont img{
+        width:100%;
+    }
+
+    .navCont .navItem{
+        width:100%;
+        text-align: center;
+        color:#9E9E9E;
+        padding-top:14px;
+        padding-bottom:14px;
+        border-bottom:1px solid #E0E0E0;
+        font-size:1.2em;
+        cursor:pointer;
+    }
+
+    .navCont .navItem:hover{
+        background-color:#9E9E9E;
+        color:#F0F0F0;
+    }
+
+    .navCont .menuFoot{
+        /*position:absolute;*/
+        /*bottom:0;*/
+        text-align: center;
+        width:100%;
+        padding-top:20px;
+    }
+
+    .navCont .menuFoot .menuFootItem{
+        color:#3A3A3A;
+        font-size:0.8em;
+        display:inline-block;
+        opacity:0.8;
+    }
+
+/* Page Content Styling */
+
+.pageCont{
+    padding-top:20px;
+    /*height:5000px;*/
+    background-color: #F1F1F1;
+}
+
+    .pageCont h2{
+        width:80%;
+        background-color:#282828;
+        color:#F0F0F0;
+        text-align:center;
+        margin:0 auto;
+        padding:20px;
+        margin-bottom:20px;
+        border-radius:4px;
+
+    }
+
+    .pageCont .pageRow{
+        padding:20px;
+    }
+
+        .pageCont .pageRow .pageCol{
+            /*width:100%;*/
+            /*background-color:red;*/
+            text-align:center;
+        }
+
+            .pageCont .pageRow .pageCol h3{
+                opacity:0.8;
+            }
+
+            .pageCont .pageRow .pageCol img{
+                width:100%;
+                margin-bottom:20px;
+                border-radius:4px;
+            }
+
+            .pageCont .pageRow .pageCol p{
+                text-align:justify;
+                font-size:1.1em;
+                padding:10px;
+            }
+
+            .pageCont .pageRow .pageCol .recBox{
+                /*display:flex;*/
+                box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+                background-color:white;
+                transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+                margin-bottom:10px;
+                border-radius:4px;
+
+            }
+
+            .pageCont .pageRow .pageCol .recBox:hover{
+                box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+            }
+
+            .pageCont .pageRow .pageCol .recBox img{
+                /*flex:1;*/
+                width:100%:;
+                border-radius:0px;
+            }
+
+            .pageCont .pageRow .pageCol .recBox .recInfo{
+                /*flex:2;*/
+                text-align:center;
+            }
+
+            .pageCont .pageRow .pageCol .recBox .recInfo h5{
+                /*flex:2;*/
+                text-align:center;
+                color:#1B90BC;
+                padding-bottom:10px;
+                font-size:1.4em;
+            }
+
+            .pageCont .pageRow .pageCol .recBox .recInfo p{
+                /*flex:2;*/
+                text-align:center;
+                background-color:white;
+                color:#9E9E9E;
+            }
+
+            .pageCont .pageRow .pageCol .moreNews{
+                /*flex:2;*/
+                text-align:center;
+                width:100%;
+                padding-top:5px;
+                padding-bottom:5px;
+                margin:0 auto;
+                background-color:white;
+                color:#9E9E9E;
+                box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+                transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+                border-radius:10px;
+            }
+
+            .pageCont .pageRow .pageCol .moreNews:hover{
+                box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+            }
+
+
+
+            .pageCont #historyRow{
+                text-align: center;
+                margin-top:40px;
+            }
+
+            .histCont{
+                margin:0 auto;
+
+            }
+
+            .pageCont .pageRow .storyHead{
+                    text-align: left;
+                    margin-top:20px;
+                    font-size:1.4em;
+                    /*line-height:18px;*/
+                }
+            .pageCont .pageRow .storyHeadName{
+                /*text-align: left;*/
+                    font-size:2.4em;
+                }
+
+            .pageCont .pageRow #familyPic{
+                margin:0 auto;
+                width:90%;
+                border-radius:4px;
+            }
+
+            hr.style18 {
+              height: 30px;
+              border-style: solid;
+              border-color: #8c8b8b;
+              border-width: 1px 0 0 0;
+              border-radius: 20px;
+            }
+            hr.style18:before {
+              display: block;
+              content: "";
+              height: 30px;
+              margin-top: -31px;
+              border-style: solid;
+              border-color: #8c8b8b;
+              border-width: 0 0 1px 0;
+              border-radius: 20px;
+            }
+
+            #historyRow p{
+                width:90%;
+                margin:0 auto;
+                text-align:justify;
+                font-size:1.2em;
+            }
+
+            #idealsRow{
+                text-align: center;
+            }
+
+            .secHeader{
+                width:100%;
+                margin-top:40px;
+                /*font-size:2.4em;*/
+
+            }
+
+            #idealsRow p{
+                width:90%;
+                margin:0 auto;
+                text-align:justify;
+                font-size:1.2em;
+            }
+
+            #govRow{
+                text-align: center;
+            }
+
+            #govRow p{
+                width:90%;
+                margin:0 auto;
+                text-align:justify;
+                font-size:1.2em;
+            }
+
+            #govRow h5{
+                color:#170719;
+                text-decoration: underline;
+                opacity:0.9;
+            }
+
+            #govRow p{
+                margin-bottom:40px;
+            }
+
+            #boardRow{
+                text-align:center;
+            }
+
+            #boardRow p{
+
+
+                font-size:1.2em;
+            }
+
+            .boardCol{
+                background-color:white;
+                padding:20px;
+                border-radius:4px;
+                margin-bottom:40px;
+                box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+            }
+
+            .boardCol img{
+                width:200px;
+                height:210px;
+
+                border-radius:50%;
+            }
+
+            .boardInfo{
+                /*background-color:red;*/
+                text-align:left;
+                width:80%;
+                margin: 0 auto;
+            }
+
+            .boardInfo h5{
+                text-align:center;
+
+            }
+
+            .boardInfoItem{
+
+                display:inline-block;
+                text-align:left;
+
+            }
+
+            #awardTitle{
+                text-align:center;
+                width:100%;
+            }
+
+            #awardHR{
+                width:80%;
+            }
+
+            .awardCol{
+                margin-bottom:40px;
+            }
+
+            .endSpacer{
+                height:50px;
+            }
+
+
+
+
+
+/* Larger than mobile */
+@media (min-width: 550px) {
+    /* Large Nav Styles */
+    .navCont{
+        position:fixed;
+        left:0;
+        top:0;
+        width:260px;
+        /*background-color:#FF94FF;*/
+        /*color:white;*/
+        height:100%;
+        overflow-y:scroll;
+    }
+
+    .navCont .menuFoot{
+        position:absolute;
+        bottom:0;
+        text-align: center;
+        width:100%;
+    }
+
+    .navCont .menuFoot .menuFootItem{
+        color:#3A3A3A;
+        font-size:0.8em;
+        display:inline-block;
+        opacity:0.8;
+    }
+
+    /* Large Page Content Styles */
+    .pageCont{
+        position:absolute;
+        right:0;
+        width: calc(100% - 240px);
+    }
+
+            .pageCont .pageRow .pageCol .recBox{
+                        /*display:flex;*/
+                        display:inline-flex;
+                        display: -webkit-inline-flex;
+                        padding:10px;
+                        -webkit-flex-wrap: wrap;
+                        flex-wrap: wrap;
+                        width:95%;
+                    }
+            .pageCont .pageRow .pageCol .recBox img{
+                        flex:1;
+                        vertical-align: middle;
+                        max-height:200px;
+                        /*height:auto;*/
+                        max-width:200px;
+                        margin:0 auto;
+                        border-radius:4px;
+                    }
+            .pageCont .pageRow .pageCol .recBox .recInfo{
+                        flex:3;
+                        padding:10px;
+                    }
+
+            .pageCont .pageRow .pageCol .moreNews{
+                width:40%;
+            }
+
+        .pageCont #historyRow{
+            text-align: center;
+            margin-top:40px;
+            width:80%;
+            margin:auto;
+            margin-top:40px;
+        }
+
+        .histCont{
+            /*transform: translateX(50px);*/
+            width:660px;
+        }
+
+        .pageCont .pageRow .storyHead{
+                font-size:3em;
+                line-height:18px;
+            }
+        .pageCont .pageRow .storyHeadName{
+                font-size:5em;
+            }
+
+        .pageCont .pageRow #familyPic{
+            margin:0 auto;
+            width:80%;
+            border-radius:4px;
+        }
+
+        hr.style18 {
+          height: 30px;
+          border-style: solid;
+          border-color: #8c8b8b;
+          border-width: 1px 0 0 0;
+          border-radius: 20px;
+        }
+        hr.style18:before {
+          display: block;
+          content: "";
+          height: 30px;
+          margin-top: -31px;
+          border-style: solid;
+          border-color: #8c8b8b;
+          border-width: 0 0 1px 0;
+          border-radius: 20px;
+        }
+
+        #historyRow p{
+            width:60%;
+            margin:0 auto;
+            text-align:justify;
+            font-size:1.2em;
+        }
+
+        #idealsRow{
+            width:80%;
+            margin:0 auto;
+        }
+
+        #govRow{
+                width:80%;
+                margin:0 auto;
+            }
+
+        #boardRow{
+                width:65%;
+                margin:0 auto;
+            }
+
+
+
+
+
+
+}
